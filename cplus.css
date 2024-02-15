@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+*{
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color:#222;
+   width: 100%;
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   padding: 15px 100px;
+}
+
+nav a{
+    text-decoration: none;
+    width: 95px;
+    color: white;
+   font-size: 1.1em;
+   font-weight: 500;
+   padding-right: 30px;
+   
+}
+nav a:hover{
+    opacity: .8;
+    color: #99c6ed;
+}
+.info2 a:hover{
+    opacity: .9;
+}
+section{
+    padding: 30px 150px;
+    margin-left:auto ;
+    margin-right: auto;
+}
+
+.main{
+    width:100%;
+   position: relative;
+   text-align: center;
+   color: white;
+   padding: 110px 150px;
+   background-image: url(pic/wallpaperflare.com_wallpaper\ \(37\).jpg) ;
+   background-size:cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+.main h1{
+    font-size: 2.5em;
+}
+.main p{
+    font-size: 1.4em;
+   display: block;
+   
+    
+}
+h3{
+    display: block;
+    color: #337ab7;
+    font-size: 1.5em;
+    padding-bottom: 5px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(242, 242, 242);
+}
+
+
+.content img{
+    width: 280px;
+    margin: 15px;
+   
+}
+.intro{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+   margin: 15px ;
+   background-color: white;
+}
+.intro div{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    width: 25em;
+    flex: 1;
+}
+.intro .ord{
+    border-left: 1px solid rgb(223, 222, 222);
+}
+.intro h3{
+    display: block;
+    padding: 3px;
+    color: #222;
+}
+
+
+.break{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #337ab7;
+   
+    width: 100%;
+    padding: 20px 558px ;
+    color: white;
+}
+.ball{
+    background-color: white;
+    padding-top: 0;
+    
+}
+.tname{
+   
+    padding :10px 15px 10px 10px;
+  
+    background-color: rgb(238, 238, 238);
+}
+.r{
+    padding-right: 700px;
+}
+.r h1{
+    margin-right: 265px;
+}
+ul{
+    list-style: none;
+    background-color: white;
+    padding:0 20px;
+    margin: 10px 0;
+}
+li{
+    border-top: #222 solid 1px;
+    width: 100%;
+    background-color:white;
+   
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+li .x{
+    border-left: #222 solid 1px;
+   padding-left: 30px;
+   padding-right: 700px;
+}
+li .x a{
+    background-color: #337ab7;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+li .x h1{
+    padding-bottom: 5px;
+}
+.break2{
+    width: 100%;
+    background-color: white;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding:9px;
+    background-color: white;
+    margin-top: 15px;
+}
+.card{
+
+    background-color: white;
+    width: 20em;
+   text-align: center;
+    margin-right: 15px ;
+    padding-left: 15px;
+    flex: 1;
+    border-left: 1px solid #eee;
+}
+.h21{
+    background-color: #337ab7;
+   color: white;
+
+}
+.h22{
+    background-color: #f8f6f6;
+    margin-top: 5px;
+}
+footer{
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+footer .social-icon{
+ width: 50%;
+ padding-top: 10px;
+ display: flex;
+ align-items: center;
+}
+footer div a{
+    color: white;
+}
+footer div a:hover{
+    color: rgb(133, 133, 133);
+}
+footer p{
+    align-items: center;
+    font-size: 1.1em;
+}
