@@ -1,5 +1,5 @@
 # elzeroWebpage.com
-Clonning to pages of elzero.org
+Clonning two pages of elzero.org
 
 # the real page of story :
 https://elzero.org/my-life-stories/
